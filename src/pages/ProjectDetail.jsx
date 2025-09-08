@@ -16,7 +16,7 @@ const projects = [
         img: project1,
         tech: ["React", "Firebase", "Tailwind CSS"],
         liveUrl: "#",
-        sourceUrl: "https://portofolio-rosy-psi.vercel.app/projects"
+        sourceUrl: "https://github.com/Ibrahimovic1970/Portofolio"
     },
     {
         id: 2,
