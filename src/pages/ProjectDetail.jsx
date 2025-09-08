@@ -16,7 +16,7 @@ const projects = [
         img: project1,
         tech: ["React", "Firebase", "Tailwind CSS"],
         liveUrl: "#",
-        sourceUrl: "https://github.com/Ibrahimovic1970/Portofolio"
+        sourceUrl: "#"
     },
     {
         id: 2,
@@ -24,8 +24,8 @@ const projects = [
         desc: "Minimalist portfolio with GSAP animations and dark mode toggle.",
         img: project2,
         tech: ["React", "GSAP", "Vite"],
-        liveUrl: "#",
-        sourceUrl: "#"
+        liveUrl: "https://portofolio-rosy-psi.vercel.app/projects/1#",
+        sourceUrl: "https://github.com/Ibrahimovic1970/Portofolio"
     },
     {
         id: 3,
