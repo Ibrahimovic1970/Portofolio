@@ -11,12 +11,12 @@ import project3 from '../assets/figma.png';
 const projects = [
     {
         id: 1,
-        title: "E-Commerce Dashboard",
+        title: "Toko Online Dashboard",
         desc: "Admin panel with real-time analytics built with React & Firebase.",
         img: project1,
         tech: ["React", "Firebase", "Tailwind CSS"],
-        liveUrl: "#",
-        sourceUrl: "#"
+        liveUrl: "https://toko-online-pink.vercel.app",
+        sourceUrl: "https://github.com/Ibrahimovic1970/toko-online"
     },
     {
         id: 2,
