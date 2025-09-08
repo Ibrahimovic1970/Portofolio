@@ -1,7 +1,7 @@
 // src/pages/Home.jsx
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
-import profileImg from '../assets/image.jpg';
+import profileImg from '../assets/orang.jpg';
 
 const Home = () => {
     const heroTextRef = useRef();

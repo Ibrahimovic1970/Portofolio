@@ -5,7 +5,7 @@ import { gsap } from 'gsap';
 
 // Import gambar dari assets
 import project1 from '../assets/react.png';
-import project2 from '../assets/js.png';
+import project2 from '../assets/porto.png';
 import project3 from '../assets/figma.png';
 
 const projects = [

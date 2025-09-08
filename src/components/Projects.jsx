@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { Link } from 'react-router-dom';
 import project1 from '../assets/react.png';
-import project2 from '../assets/js.png';
+import project2 from '../assets/porto.png';
 import project3 from '../assets/figma.png';
 
 
