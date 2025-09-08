@@ -24,7 +24,7 @@ const projects = [
         desc: "Minimalist portfolio with GSAP animations and dark mode toggle.",
         img: project2,
         tech: ["React", "GSAP", "Vite"],
-        liveUrl: "https://portofolio-rosy-psi.vercel.app/projects/1#",
+        liveUrl: "https://portofolio-rosy-psi.vercel.app",
         sourceUrl: "https://github.com/Ibrahimovic1970/Portofolio"
     },
     {
