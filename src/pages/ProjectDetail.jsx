@@ -4,7 +4,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { gsap } from 'gsap';
 
 // Import gambar dari assets
-import project1 from '../assets/react.png';
+import project1 from '../assets/toko.png';
 import project2 from '../assets/porto.png';
 import project3 from '../assets/figma.png';
 
