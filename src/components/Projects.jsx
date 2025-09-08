@@ -13,7 +13,7 @@ const Projects = () => {
 
     useEffect(() => {
         gsap.from(projectRefs.current, {
-            opacity: 2,
+            opacity: 1,
             y: 50,
             duration: 1.2,
             ease: 'power3.out',
