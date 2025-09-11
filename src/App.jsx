@@ -8,6 +8,8 @@ import Projects from './components/Projects';
 import Contact from './pages/Contact';
 import ProjectDetail from './pages/ProjectDetail';
 import NotFound from './pages/NotFound';
+import Experience from './pages/Experience';
+import Certificates from './pages/Certificates';
 import Footer from './components/Footer';
 import ProgressBar from './components/ProgressBar';
 
@@ -24,6 +26,8 @@ function App() {
             <Route path="/skills" element={<Skills />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/certificates" element={<Certificates />} />
             <Route path="/projects/:id" element={<ProjectDetail />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
