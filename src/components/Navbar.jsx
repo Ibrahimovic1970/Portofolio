@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className="container py-4 px-6 flex justify-between items-center">
                 <h2 className="text-xl font-bold text-yellow-400">Ahmad Ibrahimovic</h2>
 
-                <div className="hidden md:flex space-x-8">
+                <div className="hidden md:flex space-x-9">
                     <Link to="/" className="hover:text-yellow-400 transition">Home</Link>
                     <Link to="/about" className="hover:text-yellow-400 transition">About</Link>
                     <Link to="/skills" className="hover:text-yellow-400 transition">Skills</Link>
