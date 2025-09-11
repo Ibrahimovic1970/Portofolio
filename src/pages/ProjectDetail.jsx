@@ -6,15 +6,15 @@ import { gsap } from 'gsap';
 // Import gambar dari assets
 import project1 from '../assets/toko.png';
 import project2 from '../assets/porto.png';
-import project3 from '../assets/figma.png';
+import project3 from '../assets/webtools.png';
 
 const projects = [
     {
         id: 1,
         title: "Toko Online Dashboard",
-        desc: "Admin panel with real-time analytics built with React & Firebase.",
+        desc: "Toko Online Dashboard",
         img: project1,
-        tech: ["React", "Firebase", "Tailwind CSS"],
+        tech: ["React", "Firebase", "Tailwind CSS", "Gsap"],
         liveUrl: "https://toko-online-pink.vercel.app",
         sourceUrl: "https://github.com/Ibrahimovic1970/toko-online"
     },
@@ -23,18 +23,18 @@ const projects = [
         title: "Portfolio Website",
         desc: "Minimalist portfolio with GSAP animations and dark mode toggle.",
         img: project2,
-        tech: ["React", "GSAP", "Vite"],
+        tech: ["React", "GSAP", "Vite", "Tailwind"],
         liveUrl: "https://portofolio-rosy-psi.vercel.app",
         sourceUrl: "https://github.com/Ibrahimovic1970/Portofolio"
     },
     {
         id: 3,
-        title: "Task Management App",
-        desc: "Full-stack app with drag & drop interface and authentication.",
+        title: "BazmaTools",
+        desc: "A collection of practical tools for network technicians, vocational school students, and Indonesian students.",
         img: project3,
-        tech: ["Node.js", "MongoDB", "React"],
-        liveUrl: "#",
-        sourceUrl: "#"
+        tech: ["Tailwind", "Gsap", "React", "Vite"],
+        liveUrl: "https://web-tools-woad-eight.vercel.app/",
+        sourceUrl: "https://github.com/Ibrahimovic1970/web-tools"
     }
 ];
 

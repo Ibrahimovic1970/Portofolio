@@ -4,7 +4,7 @@ import { gsap } from 'gsap';
 import { Link } from 'react-router-dom';
 import project1 from '../assets/toko.png';
 import project2 from '../assets/porto.png';
-import project3 from '../assets/figma.png';
+import project3 from '../assets/webtools.png';
 
 
 const Projects = () => {
@@ -26,9 +26,9 @@ const Projects = () => {
     }, []);
 
     const projects = [
-        { id: 1, title: "E-Commerce Dashboard", desc: "Admin panel with real-time analytics.", img: project1 },
+        { id: 1, title: "Toko Online Dashboard", desc: "Toko Online Dashboard.", img: project1 },
         { id: 2, title: "Portfolio Website", desc: "Minimalist portfolio with GSAP animations.", img: project2 },
-        { id: 3, title: "Task Management App", desc: "Full-stack app with drag & drop interface.", img: project3 },
+        { id: 3, title: "BazmaTools", desc: "A collection of practical tools for network technicians, vocational school students, and Indonesian students.", img: project3 },
     ];
 
     return (
