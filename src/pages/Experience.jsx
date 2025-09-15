@@ -4,10 +4,10 @@ import { gsap } from 'gsap';
 
 const Experience = () => {
     const containerRef = useRef();
-    const itemRefs = useRef([]);
+    const itemsRef = useRef([]);
 
     useEffect(() => {
-        // Animasi saat muncul
+        // Animasi saat scroll ke section
         gsap.from(containerRef.current, {
             opacity: 1,
             y: 30,
@@ -19,13 +19,13 @@ const Experience = () => {
             },
         });
 
-        // Animasi card bertahap
-        gsap.from(itemRefs.current, {
+        // Animasi tiap card (dari kiri)
+        gsap.from(itemsRef.current, {
             opacity: 1,
             x: -50,
             duration: 1.2,
             ease: 'power3.out',
-            stagger: 0.3,
+            stagger: 0.4,
             scrollTrigger: {
                 trigger: containerRef.current,
                 start: 'top 80%',
@@ -49,19 +49,23 @@ const Experience = () => {
     ];
 
     return (
-        <section className="section">
-            <div className="container" ref={containerRef}>
+        <section className="section py-20">
+            <div className="container mx-auto px-6" ref={containerRef}>
                 <h2 className="text-4xl font-bold text-center mb-16 text-yellow-400">Experience & Leadership</h2>
-                <div className="space-y-12 max-w-4xl mx-auto">
+
+                {/* Container Flex dengan Flex Direction Column */}
+                <div className="flex flex-col gap-12 max-w-4xl mx-auto">
                     {experiences.map((exp, index) => (
                         <div
                             key={index}
-                            ref={(el) => (itemRefs.current[index] = el)}
-                            className="bg-gray-800 p-6 rounded-xl border border-gray-700 hover:border-yellow-400 transition-all duration-300"
+                            ref={(el) => (itemsRef.current[index] = el)}
+                            className="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-yellow-400 transition-all duration-300 shadow-lg"
                         >
-                            <h3 className="text-xl font-bold text-white mb-2">{exp.title}</h3>
-                            <p className="text-yellow-400 font-medium mb-2">{exp.org} • {exp.period}</p>
-                            <p className="text-gray-300 leading-relaxed">{exp.desc}</p>
+                            <h3 className="text-2xl font-bold text-white mb-3">{exp.title}</h3>
+                            <p className="text-yellow-400 font-medium mb-4">{exp.org} • {exp.period}</p>
+                            <p className="text-gray-300 leading-relaxed text-base">
+                                {exp.desc}
+                            </p>
                         </div>
                     ))}
                 </div>
