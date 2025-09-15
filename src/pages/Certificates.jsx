@@ -3,8 +3,8 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 
 // Import gambar sertifikat dari assets
-import certificate1 from '../assets/s1.png'; // Ganti dengan nama file kamu
-import certificate2 from '../assets/s2.png'; // Ganti dengan nama file kamu
+import certificate1 from '../assets/s1.png'; 
+import certificate2 from '../assets/s2.png';
 
 const Certificates = () => {
     const containerRef = useRef();
@@ -56,7 +56,7 @@ const Certificates = () => {
         <section className="section">
             <div className="container" ref={containerRef}>
                 <h2 className="text-4xl font-bold text-center mb-16 text-yellow-400">Certificates</h2>
-                <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto"> {/* ✅ Tambahkan gap-12 */}
                     {certificates.map((cert, index) => (
                         <div
                             key={index}
