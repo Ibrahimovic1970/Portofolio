@@ -80,23 +80,6 @@ const About = () => {
                                 <li><strong>Major:</strong> FrontEnd & Network Mikrotik</li>
                             </ul>
                         </div>
-
-                        {/* Pengalaman Organisasi */}
-                        <div className="bg-gray-800 p-6 rounded-xl border border-gray-700">
-                            <h3 className="text-xl font-semibold text-yellow-400 mb-4">Organizational Experience</h3>
-                            <div className="space-y-4">
-                                <div>
-                                    <h4 className="font-medium text-white">Ketua OSIS</h4>
-                                    <p className="text-gray-400 text-sm">SMK TI Bazma | 2022 – 2023</p>
-                                    <p className="text-gray-300 text-sm mt-1">Memimpin tim OSIS, mengorganisir acara sekolah, dan menjadi penghubung antara siswa dan guru.</p>
-                                </div>
-                                <div>
-                                    <h4 className="font-medium text-white">Anggota Mudabbir</h4>
-                                    <p className="text-gray-400 text-sm">SMK TI Bazma | 2021 – 2023</p>
-                                    <p className="text-gray-300 text-sm mt-1">Membantu kegiatan dakwah, kajian rutin, dan konten edukasi agama di media sosial sekolah.</p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
