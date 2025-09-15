@@ -56,7 +56,7 @@ const Certificates = () => {
         <section className="section">
             <div className="container" ref={containerRef}>
                 <h2 className="text-4xl font-bold text-center mb-16 text-yellow-400">Certificates</h2>
-                <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto"> {/* ✅ Tambahkan gap-12 */}
+                <div className="grid md:grid-cols-2 gap-16 max-w-4xl mx-auto"> {/* ✅ Tambahkan gap-12 */}
                     {certificates.map((cert, index) => (
                         <div
                             key={index}
