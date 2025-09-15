@@ -82,41 +82,6 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-
-                {/* Statistik Singkat */}
-                <div ref={statsRef} className="grid md:grid-cols-3 gap-6 mt-16 text-center">
-                    <div className="stat-item">
-                        <span className="text-4xl font-bold text-yellow-400">10+</span>
-                        <p className="text-gray-300">Projects Completed</p>
-                    </div>
-                    <div className="stat-item">
-                        <span className="text-4xl font-bold text-yellow-400">3 Years</span>
-                        <p className="text-gray-300">Experience in Web & Network</p>
-                    </div>
-                    <div className="stat-item">
-                        <span className="text-4xl font-bold text-yellow-400">2</span>
-                        <p className="text-gray-300">Organizations Joined</p>
-                    </div>
-                </div>
-
-                {/* Proyek atau Pencapaian */}
-                <div className="mt-16">
-                    <h3 className="text-2xl font-semibold text-yellow-400 mb-6">Notable Projects & Achievements</h3>
-                    <div className="space-y-4">
-                        <div className="bg-gray-800 p-5 rounded-lg border border-gray-700 hover:bg-gray-750 transition">
-                            <h4 className="font-bold text-white">E-Commerce Admin Dashboard</h4>
-                            <p className="text-gray-300 text-sm mt-1">Dibangun dengan React & Firebase, digunakan oleh UKM lokal untuk monitoring penjualan.</p>
-                        </div>
-                        <div className="bg-gray-800 p-5 rounded-lg border border-gray-700 hover:bg-gray-750 transition">
-                            <h4 className="font-bold text-white">MikroTik Lab Setup</h4>
-                            <p className="text-gray-300 text-sm mt-1">Merancang jaringan lokal sekolah dengan VLAN, hotspot, dan manajemen bandwidth.</p>
-                        </div>
-                        <div className="bg-gray-800 p-5 rounded-lg border border-gray-700 hover:bg-gray-750 transition">
-                            <h4 className="font-bold text-white">Portfolio Website Ini</h4>
-                            <p className="text-gray-300 text-sm mt-1">Dibuat dengan Vite, React, Tailwind, dan animasi GSAP — menunjukkan skill teknis & desain.</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
     );
