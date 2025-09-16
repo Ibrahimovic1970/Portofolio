@@ -7,6 +7,8 @@ const About = () => {
     const textRef = useRef();
 
     useEffect(() => {
+         if (!containerRef.current) return;
+
         // Animasi saat muncul
         gsap.from(containerRef.current, {
             opacity: 1,
